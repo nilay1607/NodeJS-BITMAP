@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-bitmap",
+  "version": "1.0.0",
+  "description": "Code Challenge for Dott",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --list-different src/*.js test/*.js",
+    "format:fix": "prettier --write src/*.js test/*.js",
+    "lint": "npx eslint --project .",
+    "examples": "node examples/runExample.js",
+    "test": "mocha"
+  },
+  "author": "Nilay Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1"
+  }
+}
